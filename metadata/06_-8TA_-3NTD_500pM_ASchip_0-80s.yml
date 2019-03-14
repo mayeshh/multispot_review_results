@@ -1,0 +1,26 @@
+setup:
+    excitation_alternated: [False, True]
+    excitation_input_powers: [0.5, 0.8]
+
+sample:
+    sample_name: -8TA_-3NTD_500pM_ASchip
+    dye_names: ATTO550, ATTO647N
+    buffer_name: TE50
+
+description: >
+    dually labeled dsLACONS promotor DNA
+    
+    control measurement for this sample is 05 where the same sample was measured
+    without the chip at the same powers, without gasket.
+    
+    total sample volume = 37 uL 
+    10 uL/hr input flow rate
+    
+    background is much higher with PDMS chip but can detect bursts at this flow rate!!
+
+measurement_specs:
+    measurement_type: generic
+    alex_period: 4096
+    alex_offset: 1970
+    alex_excitation_period1: [100, 1950]
+    alex_excitation_period2: [2150, 4000]

@@ -1,0 +1,22 @@
+setup:
+    excitation_alternated: [False, True]
+    excitation_input_powers: [0.3, 0.6]
+
+sample:
+    sample_name: -8TA_-3NTD_500pM
+    dye_names: ATTO550, ATTO647N
+    buffer_name: TE50
+
+description: >
+    sample from Eitan's blue box
+    
+    3uL, no gasket
+    
+    very few bursts in acceptor channel
+
+measurement_specs:
+    measurement_type: generic
+    alex_period: 4096
+    alex_offset: 1970
+    alex_excitation_period1: [100, 1950]
+    alex_excitation_period2: [2150, 4000]
